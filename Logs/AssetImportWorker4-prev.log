@@ -1,0 +1,877 @@
+Using pre-set license
+Built from '2023.2/staging' branch; Version is '2023.2.7f1 (0a9195b3d453) revision 692629'; Using compiler version '193431935'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'en' Physical Memory: 32620 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2023.2.7f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+C:/Users/Bernadeta/Documents/Unity/loafcat-racing
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+50504
+-job-worker-count
+7
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+Successfully changed project path to: C:/Users/Bernadeta/Documents/Unity/loafcat-racing
+C:/Users/Bernadeta/Documents/Unity/loafcat-racing
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [40936] Host "[IP] 192.168.0.114 [Port] 0 [Flags] 2 [Guid] 954425981 [EditorId] 954425981 [Version] 1048832 [Id] WindowsEditor(7,Bernadeta-CGT) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [40936] Host "[IP] 192.168.0.114 [Port] 0 [Flags] 2 [Guid] 954425981 [EditorId] 954425981 [Version] 1048832 [Id] WindowsEditor(7,Bernadeta-CGT) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
+Library Redirect Path: Library/
+Refreshing native plugins compatible for Editor in 5.42 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2023.2.7f1 (0a9195b3d453)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2023.2.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Bernadeta/Documents/Unity/loafcat-racing/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2560)
+    Vendor:   NVIDIA
+    VRAM:     6009 MB
+    Driver:   31.0.15.3623
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2023.2.7f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2023.2.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2023.2.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56312
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.2.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.007268 seconds.
+- Loaded All Assemblies, in  1.369 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+- Finished resetting the current domain, in  0.316 seconds
+Domain Reload Profiling: 1681ms
+	BeginReloadAssembly (988ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (45ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (59ms)
+	LoadAllAssembliesAndSetupDomain (260ms)
+		LoadAssemblies (986ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (256ms)
+			TypeCache.Refresh (255ms)
+				TypeCache.ScanAssembly (239ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (317ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (265ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (7ms)
+			ProcessInitializeOnLoadAttributes (193ms)
+			ProcessInitializeOnLoadMethodAttributes (51ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image C:\Users\Bernadeta\Documents\Unity\loafcat-racing\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Bernadeta\Documents\Unity\loafcat-racing\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  3.197 seconds
+Refreshing native plugins compatible for Editor in 3.19 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.757 seconds
+Domain Reload Profiling: 3949ms
+	BeginReloadAssembly (405ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (34ms)
+	RebuildCommonClasses (41ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (48ms)
+	LoadAllAssembliesAndSetupDomain (2686ms)
+		LoadAssemblies (2597ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (257ms)
+			TypeCache.Refresh (232ms)
+				TypeCache.ScanAssembly (139ms)
+			BuildScriptInfoCaches (17ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (758ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (563ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (42ms)
+			ProcessInitializeOnLoadAttributes (484ms)
+			ProcessInitializeOnLoadMethodAttributes (23ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 3.25 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3160 unused Assets / (1.2 MB). Loaded Objects now: 3737.
+Memory consumption went from 121.9 MB to 120.7 MB.
+Total: 6.089200 ms (FindLiveObjects: 0.394800 ms CreateObjectMapping: 0.228400 ms MarkObjects: 4.472400 ms  DeleteObjects: 0.992000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 5925.763404 seconds.
+  path: Assets/ACC_Lite/Prefabs/Cars/doggy_sp.fbx
+  artifactKey: Guid(c762ce5c3153dc34198fb5a7a77ddad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ACC_Lite/Prefabs/Cars/doggy_sp.fbx using Guid(c762ce5c3153dc34198fb5a7a77ddad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '12e44f5ead002b36ad836344927f793c') in 0.1202418 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 80.849750 seconds.
+  path: Assets/ACC_Lite/Textures/Test.png
+  artifactKey: Guid(1ae1605f56f53bb41b77ccf686c8527f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ACC_Lite/Textures/Test.png using Guid(1ae1605f56f53bb41b77ccf686c8527f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '211ea797112f9d4cf4f509a2697fcd35') in 0.0188576 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image C:\Users\Bernadeta\Documents\Unity\loafcat-racing\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Bernadeta\Documents\Unity\loafcat-racing\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.703 seconds
+Refreshing native plugins compatible for Editor in 3.46 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.652 seconds
+Domain Reload Profiling: 1350ms
+	BeginReloadAssembly (253ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (48ms)
+	RebuildCommonClasses (43ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (353ms)
+		LoadAssemblies (401ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (113ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (103ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (653ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (477ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (2ms)
+			BeforeProcessingInitializeOnLoad (36ms)
+			ProcessInitializeOnLoadAttributes (407ms)
+			ProcessInitializeOnLoadMethodAttributes (20ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 4.09 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3158 unused Assets / (1.1 MB). Loaded Objects now: 3750.
+Memory consumption went from 119.8 MB to 118.6 MB.
+Total: 6.086300 ms (FindLiveObjects: 0.377600 ms CreateObjectMapping: 0.186700 ms MarkObjects: 4.567200 ms  DeleteObjects: 0.953500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 104.529358 seconds.
+  path: Assets/ACC_Lite/Materials/World
+  artifactKey: Guid(0feb0ffeb334208408a0696523acb27d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ACC_Lite/Materials/World using Guid(0feb0ffeb334208408a0696523acb27d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd7ff1231a7bde6639b0ed3a4c952dcd3') in 0.01319 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.053928 seconds.
+  path: Assets/ACC_Lite/Materials/World/Checker.mat
+  artifactKey: Guid(20724473bb1cfef438062d2c789fc2ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ACC_Lite/Materials/World/Checker.mat using Guid(20724473bb1cfef438062d2c789fc2ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '96c247b82d7e2b059d0bc872deae60f4') in 0.0886206 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/ACC_Lite/Materials/World/TrailMaterial.mat
+  artifactKey: Guid(a856dd6d16bee974c83dd101f07b0438) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ACC_Lite/Materials/World/TrailMaterial.mat using Guid(a856dd6d16bee974c83dd101f07b0438) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5097dc846417a5916dcfd493318cba47') in 0.0117093 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.378674 seconds.
+  path: Assets/ACC_Lite/Materials/World/grass1-albedo3.png
+  artifactKey: Guid(64307d4a97ec9a940b7f448af957ef28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ACC_Lite/Materials/World/grass1-albedo3.png using Guid(64307d4a97ec9a940b7f448af957ef28) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8975281ea13dd671709d39d1edcc3d99') in 0.0217009 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 351.728145 seconds.
+  path: Assets/ACC_Lite/Materials/World/lilienstein_4k.exr
+  artifactKey: Guid(026876cbf4b042342853f0e660878f96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ACC_Lite/Materials/World/lilienstein_4k.exr using Guid(026876cbf4b042342853f0e660878f96) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2d82fccf84e3c459827bd2e1a495bbdc') in 0.0160042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.246390 seconds.
+  path: Assets/ACC_Lite/Materials
+  artifactKey: Guid(8f3457ac0b266ec4a980fa9fd17ece1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ACC_Lite/Materials using Guid(8f3457ac0b266ec4a980fa9fd17ece1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '44363b904d113b05213b155028f6be34') in 0.0105463 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.180773 seconds.
+  path: Assets/ACC_Lite/Materials/myskybox.mat
+  artifactKey: Guid(14e7cbf576404f2419db06d3180ace47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ACC_Lite/Materials/myskybox.mat using Guid(14e7cbf576404f2419db06d3180ace47) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b10bb8b3137d2d7b791f9e71e80d8e71') in 0.0256286 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.346353 seconds.
+  path: Assets/ACC_Lite/Materials/World/lilienstein_4k.exr
+  artifactKey: Guid(026876cbf4b042342853f0e660878f96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ACC_Lite/Materials/World/lilienstein_4k.exr using Guid(026876cbf4b042342853f0e660878f96) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '49e344209e8a7c11a647cafab57c116b') in 0.0480271 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.888517 seconds.
+  path: Assets/ACC_Lite/Textures/World
+  artifactKey: Guid(5daef633eb32cda4da373366b324672c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ACC_Lite/Textures/World using Guid(5daef633eb32cda4da373366b324672c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '37365269efa57fad7beba7a25f1062f7') in 0.0006392 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.054692 seconds.
+  path: Assets/ACC_Lite/Textures/World/Road_Normal.png
+  artifactKey: Guid(b6cf418f498984f4b927fc3df23182ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ACC_Lite/Textures/World/Road_Normal.png using Guid(b6cf418f498984f4b927fc3df23182ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9863951a4e035a8b4e9a52303d1046a2') in 0.0141319 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image C:\Users\Bernadeta\Documents\Unity\loafcat-racing\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Bernadeta\Documents\Unity\loafcat-racing\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.013 seconds
+Refreshing native plugins compatible for Editor in 3.17 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.750 seconds
+Domain Reload Profiling: 1760ms
+	BeginReloadAssembly (249ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (47ms)
+	RebuildCommonClasses (43ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (674ms)
+		LoadAssemblies (710ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (123ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (112ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (751ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (550ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (42ms)
+			ProcessInitializeOnLoadAttributes (472ms)
+			ProcessInitializeOnLoadMethodAttributes (21ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 3.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3158 unused Assets / (1.2 MB). Loaded Objects now: 3788.
+Memory consumption went from 122.0 MB to 120.7 MB.
+Total: 6.626000 ms (FindLiveObjects: 0.533100 ms CreateObjectMapping: 0.320700 ms MarkObjects: 4.582600 ms  DeleteObjects: 1.188200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 1421.413362 seconds.
+  path: Assets/ACC_Lite/FBX/World/House_scene_01.fbx
+  artifactKey: Guid(5ac0e172839113e49b79c576f5cdbb27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ACC_Lite/FBX/World/House_scene_01.fbx using Guid(5ac0e172839113e49b79c576f5cdbb27) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eba5e710edcf0ce32c5617bcbac42c55') in 0.4543431 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 262
+
+========================================================================
+Received Import Request.
+  Time since last request: 207.238968 seconds.
+  path: Assets/ACC_Lite/FBX/World/House_scene_01.fbx
+  artifactKey: Guid(5ac0e172839113e49b79c576f5cdbb27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ACC_Lite/FBX/World/House_scene_01.fbx using Guid(5ac0e172839113e49b79c576f5cdbb27) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9344a9a3b0a0c6d667500f3fba38bb7b') in 0.3782488 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 51
+
+========================================================================
+Received Import Request.
+  Time since last request: 74.004678 seconds.
+  path: Assets/ACC_Lite/FBX/World/Untitled 2.fbx
+  artifactKey: Guid(ded3c9d9e49d2cc40abc5eeb670559b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ACC_Lite/FBX/World/Untitled 2.fbx using Guid(ded3c9d9e49d2cc40abc5eeb670559b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '908aca3bf8e2599d532f16c443f41ce6') in 0.1478594 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 50
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.220695 seconds.
+  path: Assets/ACC_Lite/FBX/World/Untitled 2.fbx
+  artifactKey: Guid(ded3c9d9e49d2cc40abc5eeb670559b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ACC_Lite/FBX/World/Untitled 2.fbx using Guid(ded3c9d9e49d2cc40abc5eeb670559b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'acaa69836b6e629163cbdabc5cd14952') in 0.0746363 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 50
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003498 seconds.
+  path: Assets/ACC_Lite/FBX/World/House_part01_mat.17.1.mat
+  artifactKey: Guid(23c89600294fd5948a5b245e99eb6a08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ACC_Lite/FBX/World/House_part01_mat.17.1.mat using Guid(23c89600294fd5948a5b245e99eb6a08) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2b3721695c60f9883609b9b1b27c5c55') in 0.014261 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ACC_Lite/FBX/World/House_part01_mat.17.4.mat
+  artifactKey: Guid(cd90b44bb1df6134b844abcac5f8c429) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ACC_Lite/FBX/World/House_part01_mat.17.4.mat using Guid(cd90b44bb1df6134b844abcac5f8c429) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '42313b8d9917fc7d427cacdb7da65b5f') in 0.0108382 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013574 seconds.
+  path: Assets/ACC_Lite/FBX/World/House_part01_mat.17.7.mat
+  artifactKey: Guid(b74efaf6e16142c4eafaf5a8388d547c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ACC_Lite/FBX/World/House_part01_mat.17.7.mat using Guid(b74efaf6e16142c4eafaf5a8388d547c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd966b05a41ca0788254200c642e6c779') in 0.0177994 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/ACC_Lite/FBX/World/House_part01_mat.17.9.mat
+  artifactKey: Guid(09f415cedb601bb44be98761f6926b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ACC_Lite/FBX/World/House_part01_mat.17.9.mat using Guid(09f415cedb601bb44be98761f6926b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ea823f9ad8fa0072d15bc46a45bb10ae') in 0.0115254 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/ACC_Lite/FBX/World/House_part01_mat.17.3.mat
+  artifactKey: Guid(8cadeb190be29554fb44fb1cc0f7ee95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ACC_Lite/FBX/World/House_part01_mat.17.3.mat using Guid(8cadeb190be29554fb44fb1cc0f7ee95) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9eb8428854ca97da70346a370331335f') in 0.0180052 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/ACC_Lite/FBX/World/House_part01_mat.17.11.mat
+  artifactKey: Guid(f8e4afd5736d31a4b846225b5a2e8058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ACC_Lite/FBX/World/House_part01_mat.17.11.mat using Guid(f8e4afd5736d31a4b846225b5a2e8058) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f19ed3e128c48374bf7d4c3b3cc222ba') in 0.0151562 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/ACC_Lite/FBX/World/House_part01_mat.17.16.mat
+  artifactKey: Guid(f80a888716977e940a4d0e42956ad6a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ACC_Lite/FBX/World/House_part01_mat.17.16.mat using Guid(f80a888716977e940a4d0e42956ad6a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '116093d7f5e1ec02864680188357f4f7') in 0.0132718 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/ACC_Lite/FBX/World/House_part01_mat.17.17.mat
+  artifactKey: Guid(8d0435bbe5c3ebe449abc654c98fc962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ACC_Lite/FBX/World/House_part01_mat.17.17.mat using Guid(8d0435bbe5c3ebe449abc654c98fc962) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '737f09c51a6418589feed7133704fdd6') in 0.0106864 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/ACC_Lite/FBX/World/House_part01_mat.17.20.mat
+  artifactKey: Guid(92d578102d08e354f9f7ef5b0eea5681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ACC_Lite/FBX/World/House_part01_mat.17.20.mat using Guid(92d578102d08e354f9f7ef5b0eea5681) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c4402ede25c7c87ecd28048c91921e9b') in 0.0129826 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/ACC_Lite/FBX/World/House_part01_mat.17.5.mat
+  artifactKey: Guid(8a29fbf6126220a4ebef3d7213c92408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ACC_Lite/FBX/World/House_part01_mat.17.5.mat using Guid(8a29fbf6126220a4ebef3d7213c92408) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2121c30ee06bc437e39c1706ca9349e3') in 0.0141115 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/ACC_Lite/FBX/World/lambert14.2.mat
+  artifactKey: Guid(bf7ee31cb6b67524a873361d7d17e9e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ACC_Lite/FBX/World/lambert14.2.mat using Guid(bf7ee31cb6b67524a873361d7d17e9e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '58e3c1bba95fbd619596918f963ebfff') in 0.0162875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/ACC_Lite/FBX/World/lambert16.7.2.mat
+  artifactKey: Guid(05112a2a586b38744849d531f714757c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ACC_Lite/FBX/World/lambert16.7.2.mat using Guid(05112a2a586b38744849d531f714757c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '177756ca7bf7014012a781d3e3f6db0a') in 0.0137163 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/ACC_Lite/FBX/World/lambert16.7.3.mat
+  artifactKey: Guid(cf879d93b3614f74bb3d6d37c2c04e26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ACC_Lite/FBX/World/lambert16.7.3.mat using Guid(cf879d93b3614f74bb3d6d37c2c04e26) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a877695f457fbc81c854221b3fbd7a5d') in 0.0140516 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/ACC_Lite/FBX/World/House_part01_mat.17.14.mat
+  artifactKey: Guid(1ab2b5e85b4ebe34084c2f9c13ca1112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ACC_Lite/FBX/World/House_part01_mat.17.14.mat using Guid(1ab2b5e85b4ebe34084c2f9c13ca1112) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '65e37892ede4b0b08e777aed1d25a42f') in 0.0104525 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/ACC_Lite/FBX/World/lambert16.7.7.mat
+  artifactKey: Guid(71b2a2d50137ab241bf8fcc602b8aeb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ACC_Lite/FBX/World/lambert16.7.7.mat using Guid(71b2a2d50137ab241bf8fcc602b8aeb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a862239e1e36a15a6a8388f3f80071d2') in 0.0112192 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ACC_Lite/FBX/World/lambert14.mat
+  artifactKey: Guid(9a62a962a621e634087be5f729f87527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ACC_Lite/FBX/World/lambert14.mat using Guid(9a62a962a621e634087be5f729f87527) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '56c2a03373c166f192495e6f73b55b90') in 0.0116185 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/ACC_Lite/FBX/World/lambert16.7.11.mat
+  artifactKey: Guid(d807f8ca49deba94bb8e04e718041c04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ACC_Lite/FBX/World/lambert16.7.11.mat using Guid(d807f8ca49deba94bb8e04e718041c04) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b30e1d25606543397767f4e8d276e224') in 0.0118689 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/ACC_Lite/FBX/World/lambert16.7.13.mat
+  artifactKey: Guid(04eab028fca78df4691f8048b39ef67f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ACC_Lite/FBX/World/lambert16.7.13.mat using Guid(04eab028fca78df4691f8048b39ef67f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b49ba0075dfbd09d983af2d760892aaa') in 0.0129025 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/ACC_Lite/FBX/World/lambert16.7.16.mat
+  artifactKey: Guid(47f013ebcf59b8c4996184200a88d1f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ACC_Lite/FBX/World/lambert16.7.16.mat using Guid(47f013ebcf59b8c4996184200a88d1f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5bfdd0187aad3f86c1306f6ddf416a06') in 0.0111467 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/ACC_Lite/FBX/World/lambert16.7.17.mat
+  artifactKey: Guid(a9763b233e8ab0446aae6a7edfc94911) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ACC_Lite/FBX/World/lambert16.7.17.mat using Guid(a9763b233e8ab0446aae6a7edfc94911) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ad626735f7433f4169051415821d813c') in 0.0119416 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/ACC_Lite/FBX/World/House_part01_mat.17.13.mat
+  artifactKey: Guid(7404f10229ab6264cbccb76c09f4c67a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ACC_Lite/FBX/World/House_part01_mat.17.13.mat using Guid(7404f10229ab6264cbccb76c09f4c67a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c963e48a8fcb155a379312fe43f2022f') in 0.0127291 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ACC_Lite/FBX/World/House_part01_mat.17.2.mat
+  artifactKey: Guid(bc18631e3f90d744ab701a5435ef8bd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ACC_Lite/FBX/World/House_part01_mat.17.2.mat using Guid(bc18631e3f90d744ab701a5435ef8bd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5a22fe3c9875e83bf9a7e945b9939643') in 0.013223 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 55.509214 seconds.
+  path: Assets/ACC_Lite/FBX/World/House
+  artifactKey: Guid(e5fee1bc0c0b9e74b8770c829b483ddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ACC_Lite/FBX/World/House using Guid(e5fee1bc0c0b9e74b8770c829b483ddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6a7dd518077f498e004b28cb9b57239c') in 0.0005604 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.523094 seconds.
+  path: Assets/ACC_Lite/FBX/World/Materials
+  artifactKey: Guid(6bf0f1511a715ab40a4d38eb5e24223a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ACC_Lite/FBX/World/Materials using Guid(6bf0f1511a715ab40a4d38eb5e24223a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4b6dfadc66da6f306dd60373ed6d0055') in 0.0005737 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.062777 seconds.
+  path: Assets/ACC_Lite/FBX/World/Materials/RoadDark.mat
+  artifactKey: Guid(1d268579e3483244d917ededf80287a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ACC_Lite/FBX/World/Materials/RoadDark.mat using Guid(1d268579e3483244d917ededf80287a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c1f21174f335f23d7862483ad000968b') in 0.0210622 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.039572 seconds.
+  path: Assets/ACC_Lite/FBX/World/House/House_part01_mat.17.mat
+  artifactKey: Guid(114fd6ee3ff46ea469d2d9550d3266d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ACC_Lite/FBX/World/House/House_part01_mat.17.mat using Guid(114fd6ee3ff46ea469d2d9550d3266d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a4757253338035d2ff021273cc9062bc') in 0.0132932 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/ACC_Lite/FBX/World/House/House_part01_mat.17.3.mat
+  artifactKey: Guid(8cadeb190be29554fb44fb1cc0f7ee95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ACC_Lite/FBX/World/House/House_part01_mat.17.3.mat using Guid(8cadeb190be29554fb44fb1cc0f7ee95) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e0af7790369f1a3476a0ef8be196786c') in 0.0118627 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006567 seconds.
+  path: Assets/ACC_Lite/FBX/World/House/House_part01_mat.17.4.mat
+  artifactKey: Guid(cd90b44bb1df6134b844abcac5f8c429) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ACC_Lite/FBX/World/House/House_part01_mat.17.4.mat using Guid(cd90b44bb1df6134b844abcac5f8c429) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a671c24f6e5bb583e3234b0a2728ff2c') in 0.0132279 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010085 seconds.
+  path: Assets/ACC_Lite/FBX/World/House/House_part01_mat.17.7.mat
+  artifactKey: Guid(b74efaf6e16142c4eafaf5a8388d547c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ACC_Lite/FBX/World/House/House_part01_mat.17.7.mat using Guid(b74efaf6e16142c4eafaf5a8388d547c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cdbcab35fae93c7dadf94d2a1aaa87ab') in 0.0131146 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/ACC_Lite/FBX/World/House/House_part01_mat.17.8.mat
+  artifactKey: Guid(5b36ee3d31bb86d43b23721be9892b06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ACC_Lite/FBX/World/House/House_part01_mat.17.8.mat using Guid(5b36ee3d31bb86d43b23721be9892b06) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5a813dd78d234e3c673c6b6c7fac128b') in 0.0114031 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/ACC_Lite/FBX/World/House/House_part01_mat.17.12.mat
+  artifactKey: Guid(ba3cfa4070b630b40ae270e65ec435f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ACC_Lite/FBX/World/House/House_part01_mat.17.12.mat using Guid(ba3cfa4070b630b40ae270e65ec435f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eddf2fe72b6cd1a34fb048f20162c3b8') in 0.012413 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/ACC_Lite/FBX/World/House/House_part01_mat.17.15.mat
+  artifactKey: Guid(c2d80702d547c2b439fe4b89a9352e81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ACC_Lite/FBX/World/House/House_part01_mat.17.15.mat using Guid(c2d80702d547c2b439fe4b89a9352e81) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a841e02bf6c2cb79e61edf002a9b08e9') in 0.0134525 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/ACC_Lite/FBX/World/House/House_part01_mat.17.21.mat
+  artifactKey: Guid(1f6b8af0e53996e4ba0a3b220cc3f45a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ACC_Lite/FBX/World/House/House_part01_mat.17.21.mat using Guid(1f6b8af0e53996e4ba0a3b220cc3f45a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '35e31a8b5876ea2976af55488951d946') in 0.0199609 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/ACC_Lite/FBX/World/House/House_part01_mat.17.19.mat
+  artifactKey: Guid(5e2dd209c4355c64784b927d24e28147) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ACC_Lite/FBX/World/House/House_part01_mat.17.19.mat using Guid(5e2dd209c4355c64784b927d24e28147) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c98475d15c07ed0cca6630c94b8f5f91') in 0.0152921 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ACC_Lite/FBX/World/House/lambert16.7.2.mat
+  artifactKey: Guid(05112a2a586b38744849d531f714757c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ACC_Lite/FBX/World/House/lambert16.7.2.mat using Guid(05112a2a586b38744849d531f714757c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3beba320eadd297813b7da7ac85ccb81') in 0.0148499 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/ACC_Lite/FBX/World/House/lambert16.7.4.mat
+  artifactKey: Guid(b390e1ea94cd2bf408fcf1ac307ab8d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ACC_Lite/FBX/World/House/lambert16.7.4.mat using Guid(b390e1ea94cd2bf408fcf1ac307ab8d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '722623cd23427a8af39e5924457fd5af') in 0.014517 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/ACC_Lite/FBX/World/House/lambert16.7.9.mat
+  artifactKey: Guid(9fc4996682aa5b14abc9d9779df664e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ACC_Lite/FBX/World/House/lambert16.7.9.mat using Guid(9fc4996682aa5b14abc9d9779df664e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '02bdcfcde0e56a4d3016116cd97e1938') in 0.0147628 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/ACC_Lite/FBX/World/House/lambert16.7.12.mat
+  artifactKey: Guid(bfdf7d6ae873c2b4f982c1abc6580776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ACC_Lite/FBX/World/House/lambert16.7.12.mat using Guid(bfdf7d6ae873c2b4f982c1abc6580776) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4fdeb358eae9a5b1a5fba88ed3ce9886') in 0.013187 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/ACC_Lite/FBX/World/House/lambert16.7.14.mat
+  artifactKey: Guid(5757d357f2003714996cffa066f87d03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ACC_Lite/FBX/World/House/lambert16.7.14.mat using Guid(5757d357f2003714996cffa066f87d03) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5b7eca148f5ac12ab6d7479b4b5e318f') in 0.0106949 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/ACC_Lite/FBX/World/House/lambert16.7.8.mat
+  artifactKey: Guid(39d2c064c005408439b81f61ba4d1645) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ACC_Lite/FBX/World/House/lambert16.7.8.mat using Guid(39d2c064c005408439b81f61ba4d1645) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c387c1e5072fcccc9801ff4a50dee0e2') in 0.0181132 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/ACC_Lite/FBX/World/House/lambert16.7.15.mat
+  artifactKey: Guid(3dfa2986f52608049ad4d713cf42da2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ACC_Lite/FBX/World/House/lambert16.7.15.mat using Guid(3dfa2986f52608049ad4d713cf42da2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '35600ab3557708910e6bb4734ab83c09') in 0.0350299 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ACC_Lite/FBX/World/House/lambert14.2.mat
+  artifactKey: Guid(bf7ee31cb6b67524a873361d7d17e9e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ACC_Lite/FBX/World/House/lambert14.2.mat using Guid(bf7ee31cb6b67524a873361d7d17e9e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ef49005af71ba30adf282a1879059487') in 0.0291806 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/ACC_Lite/FBX/World/House/House_part01_mat.17.6.mat
+  artifactKey: Guid(3c383ad6e4c3ead429d162d542e06c56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ACC_Lite/FBX/World/House/House_part01_mat.17.6.mat using Guid(3c383ad6e4c3ead429d162d542e06c56) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cf01ee04a7b1d034126b4f66251698de') in 0.0279696 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/ACC_Lite/FBX/World/House/House_part01_mat.17.9.mat
+  artifactKey: Guid(09f415cedb601bb44be98761f6926b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ACC_Lite/FBX/World/House/House_part01_mat.17.9.mat using Guid(09f415cedb601bb44be98761f6926b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0a967b182b90934082d8c006e31220a7') in 0.0253688 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/ACC_Lite/FBX/World/House/House_part01_mat.17.20.mat
+  artifactKey: Guid(92d578102d08e354f9f7ef5b0eea5681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ACC_Lite/FBX/World/House/House_part01_mat.17.20.mat using Guid(92d578102d08e354f9f7ef5b0eea5681) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b6002fb3917f16f4974b6d2d91596e31') in 0.0116249 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/ACC_Lite/FBX/World/House/House_part01_mat.17.10.mat
+  artifactKey: Guid(3436736781454f54bb9e8ceef3f9fd29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ACC_Lite/FBX/World/House/House_part01_mat.17.10.mat using Guid(3436736781454f54bb9e8ceef3f9fd29) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e15195d274a9f87dcf6a1f2deadd1212') in 0.0130059 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/ACC_Lite/FBX/World/House/House_part01_mat.17.11.mat
+  artifactKey: Guid(f8e4afd5736d31a4b846225b5a2e8058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ACC_Lite/FBX/World/House/House_part01_mat.17.11.mat using Guid(f8e4afd5736d31a4b846225b5a2e8058) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1c0d85d4b98e7a9376977467ddc07308') in 0.0115144 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/ACC_Lite/FBX/World/House/lambert16.7.16.mat
+  artifactKey: Guid(47f013ebcf59b8c4996184200a88d1f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ACC_Lite/FBX/World/House/lambert16.7.16.mat using Guid(47f013ebcf59b8c4996184200a88d1f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f5a94fa48a7323c31aeff3d9f1b7098f') in 0.0123451 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/ACC_Lite/FBX/World/House/House_part01_mat.17.18.mat
+  artifactKey: Guid(c458345a07fca974cad438a7cdc7532c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ACC_Lite/FBX/World/House/House_part01_mat.17.18.mat using Guid(c458345a07fca974cad438a7cdc7532c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ab2da179b1f4184d42c386a5882af1a0') in 0.0119414 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/ACC_Lite/FBX/World/House/House_part01_mat.17.14.mat
+  artifactKey: Guid(1ab2b5e85b4ebe34084c2f9c13ca1112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ACC_Lite/FBX/World/House/House_part01_mat.17.14.mat using Guid(1ab2b5e85b4ebe34084c2f9c13ca1112) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd646034b545364d67dad2eb718963edf') in 0.0120384 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/ACC_Lite/FBX/World/House/lambert16.7.5.mat
+  artifactKey: Guid(e2077ccf138d2fd409e82dffef7cc021) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ACC_Lite/FBX/World/House/lambert16.7.5.mat using Guid(e2077ccf138d2fd409e82dffef7cc021) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ae9217e9c0762fe38c81645d4a8107f6') in 0.0114983 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/ACC_Lite/FBX/World/House/House_part01_mat.17.13.mat
+  artifactKey: Guid(7404f10229ab6264cbccb76c09f4c67a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ACC_Lite/FBX/World/House/House_part01_mat.17.13.mat using Guid(7404f10229ab6264cbccb76c09f4c67a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c6d818d8d5cd6db0ff6a3b1dcc351a30') in 0.0111511 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/ACC_Lite/FBX/World/House/House_part01_mat.17.2.mat
+  artifactKey: Guid(bc18631e3f90d744ab701a5435ef8bd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ACC_Lite/FBX/World/House/House_part01_mat.17.2.mat using Guid(bc18631e3f90d744ab701a5435ef8bd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '65da1f0c0519fb059966fc2cc5a94772') in 0.0113482 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

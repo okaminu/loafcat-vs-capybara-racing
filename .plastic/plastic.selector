@@ -1,0 +1,4 @@
+repository "loafcat-racing@OkaminuTeam@cloud"
+  path "/"
+    br "/main"
+    co "/main"
